@@ -1,0 +1,90 @@
+body {
+    /* Getting rid of the margins around header */
+    margin: 0;
+    font-family: sans-serif;
+    border: .2rem solid white;
+    padding: 5%;
+    background-color: aliceblue;
+}
+
+
+/********************** FOR the header class in Header.js *************************/
+
+.header {
+    background-color: royalblue;
+    height: 3rem;
+    font-size: 2em;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/********************** FOR classes in Form.js **********************************/
+
+
+/*for the entire form*/
+
+.todoform {
+    width: 100%;
+    margin: auto;
+    margin-top: 3rem;
+    border: .3em solid white;
+}
+
+
+/*for the input feild*/
+
+.todoinput {
+    width: 100%;
+    border: none;
+    border-bottom: .2em solid whitesmoke;
+    font-size: 1.5em;
+    text-align: center;
+    height: 2em;
+}
+
+
+/*for the 'Add' button*/
+
+.todobutton {
+    width: 100%;
+    border: none;
+    height: 3rem;
+    font-size: 1.2em;
+    background-color: green;
+    color: #fff;
+    margin-top: 1.6em;
+}
+
+
+/************************** FOR classes in Todo.js *************************************/
+
+
+/*for the outermost div*/
+
+.todoitem {
+    margin: auto;
+    border: .2em solid white;
+    padding: 1rem;
+    margin-top: .89rem;
+    padding-left: 10%;
+}
+
+
+/*for the div with h3*/
+
+.todoname {}
+
+
+/*for the delete button*/
+
+.deletebutton {
+    border: none;
+    height: 3rem;
+    background-color: green;
+    width: 7rem;
+    border-radius: .9rem;
+    color: #fff;
+}
